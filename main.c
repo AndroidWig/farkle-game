@@ -3,6 +3,7 @@
 // Rules of the game: https://www.dicegamedepot.com/farkle-rules/
 // Number of players: 2 to 4
 // Jason Robinson
+//random number generator written by Dr. Greg Byrd at NC State
 
 #include <stdio.h>
 // DO NOT include or use any other standard library routines
