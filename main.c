@@ -91,7 +91,7 @@ void rollDice(DiceGroup dice, int n) {              //rolls dice to get pseudo r
         n--;
     }
 
-
+//can be cleaned up
     for (j = 1; j <= a; j++) {      //properly increments the dice array to be used as the dice data structure
 
         if (dicecheck[j] == 1) {
@@ -188,8 +188,8 @@ int selectDice(DiceGroup dice, DiceGroup keep, int choice) {
     return 1;
 
 }
-
-int scoreDice(const DiceGroup dice) {       //returns proper score based off of what dice the player chooses to keep
+//Needs to be switched to case statement or more efficient loop
+int scoreDice(const DiceGroup dice) {       //returns proper score based off of what dice the player chooses to keep 
     int x = 0;
     int j = 0;
     DiceGroup dicecheck;
